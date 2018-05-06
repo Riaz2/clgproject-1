@@ -1,0 +1,126 @@
+/* || font setup */
+@font-face {
+	font-family:OpenSans-Regular;
+	src:url("font/OpenSans-Regular.ttf") format("truetype");
+}
+/* || font setup end */
+
+
+/* || General setup */
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 18px;
+	background-color: #d0d0d0;
+}
+
+
+body {
+	width: 1100px;
+	color: #2a2a2a;
+	font-family:OpenSans-Regular;
+}
+
+p {
+	text-align:justify;
+	line-height: 1.5;
+	margin-bottom:15px
+}
+
+h1,h2 {
+	text-align: center; 
+}
+
+a {
+	text-decoration:none;
+}
+
+/* || header layout */
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+	height: 100px;
+}
+
+header {
+	
+	background: url("http://keepimg.com/images/spiration-light.png");
+}
+
+div.nav {
+	width: 1100px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #8effff 0%,#32b9b9 100%);
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.active {
+	background-color: #5bd8d8;
+}
+ 
+/* || main layout */
+
+main {
+	width:70%;
+	height:1470px;
+	float:left;
+	padding: 20px;
+	background: url("http://keepimg.com/images/bg-img643ccf88fc208c17.jpg");
+	margin-bottom:10px;
+}
+
+aside {
+	width:29%;
+	height:1470px;
+	margin-left: 10px;
+	background-color: #ffffff;
+	float:left;
+	padding: 15px;
+}
+
+.faq{
+	background-color:tomato;
+	display:block;
+	text-align:center;
+	padding:0;
+	margin:0;
+	color:yellow;
+	font-weight:bolder;
+	font-size:35px;
+	text-decoration:underline;
+}
+
+p.last {
+	text-align:center;
+}
+/*aside layout*/
+
+aside a {
+	background-color:tomato;
+	display:block;
+	text-align:center;
+	padding:10px;
+	color:yellow;
+	transition:all 1s;
+}
+
+aside a:hover {
+	background-color:black;
+	color:white;
+}
+
+footer {
+	clear:both;
+	padding: 1%;
+	text-align: center;
+	color:#fff;
+	background-color: #339999;
+}
+
+
+

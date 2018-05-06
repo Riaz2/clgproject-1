@@ -1,0 +1,162 @@
+/* || font setup */
+@font-face {
+	font-family:OpenSans-Regular;
+	src:url("../../font/OpenSans-Regular.ttf") format("truetype");
+}
+/* || font setup end */
+
+
+img.logo {
+	display:block;
+	margin:0 auto;
+	height:100px;
+}
+
+html {background: #ececec;}
+
+body { 
+	width: 1100px;
+	color: #2a2a2a;
+	font-family:OpenSans-Regular;
+	margin: 0 auto; 
+	background: url("http://keepimg.com/images/spiration-light.png");
+}
+
+header {
+	
+	background: url("http://keepimg.com/images/spiration-light.png");
+}
+
+div.nav {
+	width: 1100px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #8effff 0%,#32b9b9 100%);
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.head {
+	background: inherit;
+    border-bottom: 1px dashed #ccc;
+    color: #933;
+    font: 30px Georgia, serif;
+    margin-bottom: 25px;
+    padding: 0 0 5px;
+    text-align: center;
+    margin-top: 95px;	
+}
+
+.active {
+	background-color: #5bd8d8;
+}
+ 
+div#quad { 
+  background-color: #f3f3f3; 
+  font-size: 0; 
+  width: 60%; 
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
+  margin-bottom: 30px;
+}
+
+div#quad figure { 
+  margin: 0; 
+  width: 49%; 
+  height: auto; 
+  transition: 1s; 
+  display: inline-block; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+div#quad figure:hover { 
+	cursor: pointer; 
+	z-index: 4; 
+}
+
+div#quad figure img { 
+	width: 100%; 
+	height: auto;
+	margin:10px; 
+}
+
+div#quad figure:nth-child(1) { 
+	transform-origin: top left; 
+}
+
+div#quad figure:nth-child(2) { 
+	transform-origin: top right; 
+}
+
+div#quad figure:nth-child(3) { 
+	transform-origin: bottom left; 
+}
+
+div#quad figure:nth-child(4) { 
+	transform-origin: bottom right;
+ 
+}
+
+div#quad figure figcaption { 
+  margin: 0; 
+  opacity: 0; 
+  background: rgba(0, 0, 0, 0.65); 
+  color: #fff; 
+  padding: 4.8px; 
+  font-size: 19.2px; 
+  position: absolute; 
+  bottom: 0; 
+  width: 100%;
+  transition: 1s 1s opacity; 
+}
+
+.expanded { 
+	transform: scale(2); 
+	z-index: 5;  
+}
+
+div#quad figure.expanded figcaption { 
+	opacity: 1; 
+}
+
+div.full figure:not(.expanded) { 
+	pointer-events: none; 
+}
+
+
+
+/*drop downs*/
+
+.hide{
+	display:none;
+	
+	position:relative;
+}
+.drop:hover .hide{
+	display:block;
+	
+	position:absolute;
+	
+}
+.block{
+	width:130px;
+	height:40px;
+	background:white;
+}
+/*--------------------drop down CSS END------------------------------*/
+
+
+
+footer {
+	clear:both;
+	padding: 1%;
+	text-align: center;
+	color:#fff;
+	background-color: #339999;
+}
+
+
+
